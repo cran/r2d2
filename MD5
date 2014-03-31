@@ -1,0 +1,12 @@
+6a39bc8d7a60c71906f3bf1b0fc88d11 *DESCRIPTION
+d2e8721365686d928b7f216f71da653c *NAMESPACE
+9a2e47fbb805257e174ee47575135cce *NEWS
+fd242c6d5d1dec4d88cbe9a3b7bd8986 *R/conf2d.R
+cc18cd427cbd05fc23623e1e6ffb67b5 *R/freq2d.R
+ad3b1db67fc6b6dffbba9b3c11514b99 *data/Ushape.rda
+fa282497b11e9e6cf9ebcd1fac29e02a *data/saithe.rda
+87d865b3b578ce618c48d4bd690ed4cb *man/Ushape.Rd
+12a277321ff96d7fb4ff30751462545e *man/conf2d.Rd
+841739748ac1d92dc2b0a3473a7ef953 *man/freq2d.Rd
+fdef20a29c14094f5f65d006d8f69a85 *man/r2d2-package.Rd
+731694614ea98b5712830c650c212095 *man/saithe.Rd
