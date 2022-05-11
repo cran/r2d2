@@ -17,7 +17,8 @@ freq2d.formula <- function(formula, data, subset, ...)
 }
 
 
-freq2d.default <- function(x, y, n=20, pad=0, layout=1, print=TRUE, dnn=NULL, ...)
+freq2d.default <- function(x, y, n=20, pad=0, layout=1, print=TRUE, dnn=NULL,
+                           ...)
 {
   method <- match.arg(as.character(layout), c("1","2","3"))
 
@@ -62,8 +63,10 @@ freq2d.default <- function(x, y, n=20, pad=0, layout=1, print=TRUE, dnn=NULL, ..
   for(i in seq_len(pad))
   {
     tmp <- cbind(0, rbind(0, z, 0), 0)
-    rownames(tmp)[c(1,nrow(tmp))] <- as.numeric(rownames(z)[c(1,nrow(z))]) + c(-xstep,xstep)
-    colnames(tmp)[c(1,ncol(tmp))] <- as.numeric(colnames(z)[c(1,ncol(z))]) + c(-xstep,xstep)
+    rownames(tmp)[c(1,nrow(tmp))] <- as.numeric(rownames(z)[c(1,nrow(z))]) +
+      c(-xstep,xstep)
+    colnames(tmp)[c(1,ncol(tmp))] <- as.numeric(colnames(z)[c(1,ncol(z))]) +
+      c(-xstep,xstep)
     names(dimnames(tmp)) <- names(dimnames(z))
     z <- tmp
   }
@@ -77,22 +80,23 @@ freq2d.default <- function(x, y, n=20, pad=0, layout=1, print=TRUE, dnn=NULL, ..
     if(print)
     {
       print.table(output, zero.print=".")
-      return(invisible(output))
+      invisible(output)
     }
     else
     {
-      return(output)
+      output
     }
   }
   else if(layout == 2)
   {
     output <- list(x=xnum, y=ynum, z=z)
-    return(output)
+    output
   }
   else  # layout 3
   {
-    output <- data.frame(x=rep(xnum,length(ynum)), y=rep(ynum,each=length(xnum)), z=c(z))
+    output <- data.frame(x=rep(xnum,length(ynum)),
+                         y=rep(ynum,each=length(xnum)), z=c(z))
     names(output) <- make.names(c(xname,yname,"Freq"), unique=TRUE)
-    return(output)
+    output
   }
 }

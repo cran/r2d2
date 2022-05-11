@@ -1,3 +1,5 @@
+importFrom(graphics, polygon)
+importFrom(grDevices, contourLines)
 importFrom(KernSmooth, dpik, bkde2D)
 importFrom(MASS, bandwidth.nrd, kde2d)
 importFrom(sp, over, Polygon, Polygons, SpatialPoints, SpatialPolygons)

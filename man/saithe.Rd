@@ -17,12 +17,17 @@
   }
 }
 \references{
-  Magnusson, A. (2013) Icelandic saithe. In: \emph{Report of the North
-    Western Working Group (NWWG)}. ICES CM 2013/ACOM:07, pp. 231--252.
+  Magnusson, A. (2013).
+  Icelandic saithe.
+  In: \emph{Report of the North Western Working Group (NWWG)}.
+  ICES CM 2013/ACOM:07, pp. 231--252.
+  \doi{10.17895/ices.pub.5284}.
 
-  Magnusson, A., Punt, A. E., and Hilborn, R. (2013) Measuring
-  uncertainty in fisheries stock assessment: the delta method,
-  bootstrap, and MCMC. \emph{Fish and Fisheries} \bold{14}, 325--342.
+  Magnusson, A., Punt, A. E., and Hilborn, R. (2013).
+  Measuring uncertainty in fisheries stock assessment: the delta method,
+  bootstrap, and MCMC.
+  \emph{Fish and Fisheries} \bold{14}, 325--342.
+  \doi{10.1111/j.1467-2979.2012.00473.x}.
 }
 \examples{
 conf2d(saithe, level=0.9)

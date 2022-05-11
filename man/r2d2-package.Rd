@@ -28,14 +28,17 @@
   Gregory R. Warnes.
 }
 \references{
-  Bivand, R. S., Pebesma, E., and Gomez-Rubio, V. (2013) \emph{Applied
-    Spatial Data Analysis with R}. Second edition. New York: Springer.
+  Bivand, R. S., Pebesma, E., and Gomez-Rubio, V. (2013).
+  \emph{Applied Spatial Data Analysis with R}. Second edition.
+  New York: Springer.
 
-  Venables, W. N. and Ripley, B. D. (2002) \emph{Modern Applied
-    Statistics with S}. Fourth edition. New York: Springer.
+  Venables, W. N. and Ripley, B. D. (2002).
+  \emph{Modern Applied Statistics with S}. Fourth edition.
+  New York: Springer.
 
-  Wand, M. P. and Jones, M. C. (1995) \emph{Kernel Smoothing}. London:
-  Chapman and Hall.
+  Wand, M. P. and Jones, M. C. (1995).
+  \emph{Kernel Smoothing}.
+  London: Chapman and Hall.
 }
 \seealso{
   Combines existing tools from the \pkg{KernSmooth}, \pkg{MASS}, and
