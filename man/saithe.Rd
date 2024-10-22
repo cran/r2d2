@@ -23,7 +23,7 @@
   ICES CM 2013/ACOM:07, pp. 231--252.
   \doi{10.17895/ices.pub.5284}.
 
-  Magnusson, A., Punt, A. E., and Hilborn, R. (2013).
+  Magnusson, A., Punt, A.E., and Hilborn, R. (2013).
   Measuring uncertainty in fisheries stock assessment: the delta method,
   bootstrap, and MCMC.
   \emph{Fish and Fisheries} \bold{14}, 325--342.

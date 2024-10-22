@@ -28,7 +28,7 @@ freq2d(x, \dots)
     containing only zeros.}
   \item{layout}{one of three layouts for the output: \code{1}, \code{2},
     or \code{3}.}
-  \item{print}{whether to display the resulting matrix on the screen
+  \item{print}{whether to display the resulting table on the screen
     using dots for zeros.}
   \item{dnn}{the names to be given to the dimensions in the result.}
   \item{\dots}{named arguments to be passed to the default method.}
@@ -47,9 +47,9 @@ freq2d(x, \dots)
   the binned frequency output:
 
   \enumerate{
-    \item{\code{matrix} that is easy to read, aligned like a
+    \item{\code{table} that is easy to read, aligned like a
       scatterplot.}
-    \item{\code{list} with three elements (x, y, matrix) that can be
+    \item{\code{list} with three elements (x, y, table) that can be
       passed to various plotting functions.}
     \item{\code{data.frame} with three columns (x, y, frequency) that
       can be analyzed further.}
@@ -60,8 +60,8 @@ freq2d(x, \dots)
   \code{\link{cut}}, \code{\link{table}}, and \code{\link{print.table}}
   are the basic underlying functions.
 
-  \code{\link[gplots]{hist2d}} in the \pkg{gplots} package is a related
-  function with graphical capabilities.
+  \code{hist2d} in the \pkg{gplots} package is a related function with
+  graphical capabilities.
 
   \code{\link{conf2d}} calculates a bivariate empirical confidence
   region, a smooth polygon.

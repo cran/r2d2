@@ -61,10 +61,10 @@ conf2d_int(x, y, surf, level, n)  # internal function
   \code{\link[MASS]{kde2d}} from the \pkg{MASS} package.
 
   The \code{conf2d} function calls \code{bkde2D} or \code{kde2d} to
-  compute a smooth surface from \code{x} and {y}. If users already have
-  a smoothed surface to work from, the internal \code{conf2d_int} can be
-  used directly to find the empirical confidence region that matches
-  \code{level} best.
+  compute a smooth surface from \code{x} and \code{y}. If users already
+  have a smoothed surface to work from, the internal \code{conf2d_int}
+  can be used directly to find the empirical confidence region that
+  matches \code{level} best.
 }
 \value{
   List containing five elements:
@@ -100,8 +100,8 @@ conf2d_int(x, y, surf, level, n)  # internal function
   The \pkg{distfree.cr} package uses a different smoothing algorithm to
   calculate bivariate empirical confidence regions.
 
-  \code{\link[gplots]{ci2d}} in the \pkg{gplots} package is a
-  predecessor of \code{conf2d}.
+  \code{ci2d} in the \pkg{gplots} package is a predecessor of
+  \code{conf2d}.
 
   \code{\link{freq2d}} calculates a discrete frequency distribution for
   two continuous variables.
